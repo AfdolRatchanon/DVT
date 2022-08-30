@@ -6,9 +6,9 @@
             <!-- border-bottom-0 -->
             <div class="container">
                 <a href="index.php" class="navbar-brand">
-                    <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-2"
+                    <img src="dist/img/logo-vec.png" alt="Logo VEC" class="brand-image img-circle elevation-2"
                         style="opacity: .8">
-                    <span class="brand-text font-weight-light">AU 2 TH</span>
+                    <span class="brand-text font-weight-light">Dual Vocational Traning</span>
                 </a>
                 <button class="navbar-toggler order-1" type="button" data-toggle="collapse"
                     data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
