@@ -4,7 +4,8 @@
         Anything you want
     </div> -->
 
-    <strong>Copyright &copy; 2022 <a href="https://adminlte.io">AU 2 TH</a>.</strong> All rights
+    <strong>Copyright &copy; 2022 <a href="https://www.vec.go.th/">สํานักงานคณะกรรมการการอาชีวศึกษา</a>.</strong> All
+    rights
     reserved.
     <!-- <div class="row">
         <div class="col-md-3">

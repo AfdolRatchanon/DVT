@@ -2,7 +2,7 @@
     class="hold-transition pace-primary sidebar-collapse layout-top-nav layout-navbar-fixed layout-fixed <?= $_SESSION['mode'] == 'dark' ? 'dark-mode' : '' ?>">
     <div class="wrapper">
         <nav
-            class="main-header navbar navbar-expand-lg navbar-<?= $_SESSION['mode'] == 'light' ? 'light' : 'dark' ?>  ">
+            class="main-header navbar navbar-expand-xl navbar-<?= $_SESSION['mode'] == 'light' ? 'light' : 'dark' ?>  ">
             <!-- border-bottom-0 -->
             <div class="container">
                 <a href="index.php" class="navbar-brand">
@@ -34,7 +34,7 @@
                             <a href="job-hunter.php" class="nav-link navtop">
                                 <?=
                                 $_SESSION['lang'] == 'th'
-                                    ? "นักล่างาน"
+                                    ? "ข้อมูลการฝึกงาน"
                                     : "JOB HUNTER"
                                 ?>
                             </a>
@@ -42,7 +42,7 @@
                         <li class="nav-item ">
                             <a href="employers.php" class="nav-link navtop">
                                 <?= $_SESSION['lang'] == 'th'
-                                    ? "นายจ้าง"
+                                    ? "สถานประกอบการ"
                                     : "EMPLOYERS"
                                 ?>
                             </a>
@@ -50,11 +50,44 @@
                         <li class="nav-item ">
                             <a href="industry-insiders.php" class="nav-link navtop">
                                 <?= $_SESSION['lang'] == 'th'
-                                    ? "บุคคลภายในอุตสาหกรรม"
-                                    : "INDUSTRY INSIDERS"
+                                    ? "สถานศึกษา"
+                                    : "Academy"
                                 ?>
                             </a>
                         </li>
+                        <li class="nav-item ">
+                            <a href="resources.php" class="nav-link navtop">
+                                <?= $_SESSION['lang'] == 'th'
+                                    ? "แหล่งข้อมูลเพิ่มเติม"
+                                    : "Resources"
+                                ?>
+                            </a>
+
+                        </li>
+                        <!-- <li class="nav-item ">
+                            <a href="BESM.php" class="nav-link navtop">
+                                <?= $_SESSION['lang'] == 'th'
+                                    ? "การจัดการศึกษาระบบทวิภาคี"
+                                    : "Bilateral Education System Management"
+                                ?>
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="Preparation.php" class="nav-link navtop">
+                                <?= $_SESSION['lang'] == 'th'
+                                    ? "การจัดเตรียมความพร้อม"
+                                    : "Preparation"
+                                ?>
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="IBVSM.php" class="nav-link navtop">
+                                <?= $_SESSION['lang'] == 'th'
+                                    ? "การดำเนินการจัดอาชีวศึกษาระบบทวิภาคี"
+                                    : "Implementation of a Bilateral Vocational Education System"
+                                ?>
+                            </a>
+                        </li> -->
                     </ul>
                     <!-- <form class="form-inline ml-0 ml-md-3">
                         <div class="input-group input-group-sm">

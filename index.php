@@ -89,7 +89,7 @@ require('layout/navside.php');
                 ">
                 <h2>
                     <?= $_SESSION['lang'] == 'th'
-                        ? "เว็บไซต์ แนวทางหาผู้ฝึกงานชาวไทย เป็นศูนย์ข้อมูลทั่วไทย"
+                        ? "เกี่ยวกับระบบทวิภาคีของการจัดการอาชีวศึกษา"
                         : "The Thai Apprenticeships Pathways website is an Thailand wide information hub"
                     ?>
                 </h2>
