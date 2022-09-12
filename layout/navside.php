@@ -1,4 +1,4 @@
-<aside class="main-sidebar sidebar-light-danger elevation-4 ">
+<aside class="main-sidebar sidebar-<?= $_SESSION['mode'] == 'light' ? 'light' : 'dark' ?>-danger elevation-4 ">
 
     <a href="index.php" class="brand-link ">
         <img src="dist/img/logo-vec.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"

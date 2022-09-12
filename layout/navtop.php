@@ -10,7 +10,14 @@
                 <a href="index.php" class="navbar-brand">
                     <img src="dist/img/logo-vec.png" alt="Logo VEC" class="brand-image img-circle elevation-2"
                         style="opacity: .8">
-                    <span class="brand-text text-danger font-weight-light">Dual Vocational Traning</span>
+                    <span class="brand-text text-danger font-weight-light">
+                        Dual Vocational Training
+                        <!-- <?=
+                                $_SESSION['lang'] == 'th'
+                                    ? "การจัดการอาชีวศึกษาระบบทวิภาคี"
+                                    : "Dual Vocational Training"
+                                ?> -->
+                    </span>
                 </a>
                 <button class="navbar-toggler order-1" type="button" data-toggle="collapse"
                     data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
