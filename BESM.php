@@ -22,7 +22,7 @@ require('layout/navside.php');
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item">
-                            <a href="index.php">
+                            <a href="index.php" class="text-danger">
                                 <?=
                                 $_SESSION['lang'] == 'th'
                                     ? 'หน้าแรก'

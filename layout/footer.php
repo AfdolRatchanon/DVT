@@ -87,7 +87,7 @@ $(function() {
         const RegExpURL = new RegExp('^' + this.href + '.{0,}$');
         return RegExpURL.test(url.href);
         // return this.href == url.href;
-    }).addClass('text-primary');
+    }).addClass('text-danger');
     // }).parent().addClass('bg-primary');
     // for treeview
     // $('ul.nav-treeview a.navtop').filter(function() {

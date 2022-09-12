@@ -22,7 +22,7 @@ require('layout/navside.php');
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item">
-                            <a href="index.php">
+                            <a href="index.php" class="text-danger">
                                 <?=
                                 $_SESSION['lang'] == 'th'
                                     ? 'หน้าแรก'
@@ -45,7 +45,7 @@ require('layout/navside.php');
 
     <div class="content">
         <div class="container">
-            <div class="jumbotron bg-success">
+            <div class="jumbotron bg-primary">
                 <h2><?= $_SESSION['lang'] == 'th'
                         ? "แหล่งข้อมูลเพิ่มเติม"
                         : "Resources"
@@ -57,7 +57,7 @@ require('layout/navside.php');
 
             <div class="row">
                 <div class="col-lg-4">
-                    <div class="card" style="min-height: 700px;">
+                    <div class="card" style="min-height: 680px;">
                         <a href="https://drive.google.com/file/d/1XpNg57PTFXJheiwWeCA_afwcvY9-MwDg/view"
                             target="_blank">
                             <img src="./img/resources/แนวทางปฏิบัติการจัดการอาชีวศึกษาทวิภาคี.jpg"
@@ -83,7 +83,7 @@ require('layout/navside.php');
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="card" style="min-height: 700px;">
+                    <div class="card" style="min-height: 680px;">
                         <a href="https://drive.google.com/file/d/1P4PE-RHLLA7z2sWyJ_IczuMkfRzQAptw/view"
                             target="_blank">
                             <img src="./img/resources/คู่มือการจัดทำแผนการฝึกอาชีพในสถานประกอบการ.jpg"
@@ -111,9 +111,8 @@ require('layout/navside.php');
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="card" style="min-height: 700px;">
-                        <a href="https://drive.google.com/file/d/1DGD4C7Hv91W0cIhkS5dW7A_PoYMy-M_7/view"
-                            target="_blank">
+                    <div class="card" style="min-height: 680px;">
+                        <a href="./resources/pdf/แนวปฏิบัติการขอรับสิทธิประโยชน์ของผู้ประกอบกิจการ.pdf" target="_blank">
                             <img src="./img/resources/แนวปฏิบัติการขอรับสิทธิประโยชน์ของผู้ประกอบกิจการ.jpg"
                                 class="card-img-top rounded-top" alt="...">
                         </a>
@@ -133,7 +132,7 @@ require('layout/navside.php');
                                     และฝึกเตรียมเข้าทำงานกับผู้ประกอบกิจการ"
                                 ?>
                             </p>
-                            <a href="https://drive.google.com/file/d/1DGD4C7Hv91W0cIhkS5dW7A_PoYMy-M_7/view"
+                            <a href="./resources/pdf/แนวปฏิบัติการขอรับสิทธิประโยชน์ของผู้ประกอบกิจการ.pdf"
                                 target="_blank">
                                 <?= $_SESSION['lang'] == 'th'
                                     ? "อ่านข้อมูลเพิ่มเติม"
@@ -145,7 +144,7 @@ require('layout/navside.php');
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="card card-outline card-success">
+                    <div class="card card-outline card-primary">
                         <div class="card-header">
                             <h3 class="card-title">แนวปฏิบัติการยกเว้นภาษี ในการจัดการอาชีวศึกษาระบบทวิภาคี</h3>
                         </div>
@@ -161,7 +160,7 @@ require('layout/navside.php');
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="card card-outline card-success">
+                    <div class="card card-outline card-primary">
                         <div class="card-header">
                             <h3 class="card-title">มาตรฐานการจัดการอาชีวศึกษาระบบทวิภาคี</h3>
                         </div>
@@ -177,7 +176,7 @@ require('layout/navside.php');
                 </div>
                 <div class="text-center col-lg-3"></div>
                 <div class="text-center col-lg-6">
-                    <div class="card card-outline card-success">
+                    <div class="card card-outline card-primary">
                         <div class="card-header">
                             <h3 class="card-title">การจัดการอาชีวศึกษาระบบทวิภาค</h3>
                         </div>

@@ -5,19 +5,23 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>AdminLTE 3 | Top Navigation + Sidebar</title>
+    <title>Dual Vocational Traning</title>
 
     <!-- <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback"> -->
+    <!-- font Kanit -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit" />
 
-
+    <!-- fontawesome (icon)-->
     <link rel="stylesheet" href="plugins/fontawesome-free-6.1.2-web/css/all.min.css">
 
+    <!-- flag-icon (icon)-->
     <link rel="stylesheet" href="plugins/flag-icon-css/css/flag-icon.min.css">
 
     <!-- <link rel="stylesheet" href="dist/css/adminlte.min.css?v=3.2.0"> -->
     <!-- pace-progress -->
+
+    <!-- ตัวโหลดโหลดแทบด้านบน -->
     <link rel="stylesheet" href="plugins/pace-progress/themes/black/pace-theme-flat-top.css">
     <!-- Theme style -->
     <link rel="stylesheet" href="dist/css/adminlte.min.css">

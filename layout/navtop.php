@@ -1,5 +1,7 @@
+<!-- .pace-(color keyword) เป็นตัวโหลดอยู่เหนือ navtop -->
+
 <body
-    class="hold-transition pace-primary sidebar-collapse layout-top-nav layout-navbar-fixed layout-fixed <?= $_SESSION['mode'] == 'dark' ? 'dark-mode' : '' ?>">
+    class="hold-transition pace-danger sidebar-collapse layout-top-nav layout-navbar-fixed layout-fixed <?= $_SESSION['mode'] == 'dark' ? 'dark-mode' : '' ?>">
     <div class="wrapper">
         <nav
             class="main-header navbar navbar-expand-xl navbar-<?= $_SESSION['mode'] == 'light' ? 'light' : 'dark' ?>  ">
@@ -8,7 +10,7 @@
                 <a href="index.php" class="navbar-brand">
                     <img src="dist/img/logo-vec.png" alt="Logo VEC" class="brand-image img-circle elevation-2"
                         style="opacity: .8">
-                    <span class="brand-text font-weight-light">Dual Vocational Traning</span>
+                    <span class="brand-text text-danger font-weight-light">Dual Vocational Traning</span>
                 </a>
                 <button class="navbar-toggler order-1" type="button" data-toggle="collapse"
                     data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
