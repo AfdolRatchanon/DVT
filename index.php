@@ -14,7 +14,7 @@ require('layout/navside.php');
         <div class="container">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <!-- <h1 class="m-0"> Top Navigation <small>Example 3.0</small></h1> -->
+                    <!-- <h2 class="m-0"> Top Navigation <small>Example 3.0</small></h2> -->
                 </div>
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
@@ -33,54 +33,7 @@ require('layout/navside.php');
     <div class="content">
         <div class="container">
 
-            <!-- <div id="carouselExampleCaptions" class="carousel slide rounded" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                    <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="./img/104050.jpg" class="d-block w-100 rounded" alt="...">
-                        <div class="carousel-caption d-none d-md-block ">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./img/Eurofighter-Typhoon.jpg" class="d-block w-100 rounded" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./img/372211.jpg" class="d-block w-100 rounded" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./img/986554.jpg" class="d-block w-100 rounded" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Fourth slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions"
-                    data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions"
-                    data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </button>
-            </div> -->
+
 
             <div class="jumbotron bg-danger" style="
                 /* background-image: url('./img/372211.jpg');
@@ -94,12 +47,6 @@ require('layout/navside.php');
                     ?>
                 </h2>
             </div>
-            <h4 class="my-3">
-                <?= $_SESSION['lang'] == 'th'
-                    ? "แนวทางหาแรงงานฝึกงานและผู้ต้องการรับการฝึกงาน - ข้อมูลสำหรับผู้ที่กำลังพิจารณาทางเลือกในอาชีพ นายจ้างที่กำลังมองหาการจัดหางาน และผู้ที่ให้การสนับสนุนและคำแนะนำ"
-                    : "The Thai Apprenticeships & Traineeships Information Service - information for people considering career options, employers looking at recruitment and those providing support and advice."
-                ?>
-            </h4>
 
             <div class="row">
                 <div class="col-md-12">
@@ -112,7 +59,83 @@ require('layout/navside.php');
                         </div> -->
                         <!-- /.card-header -->
                         <div class="card-body">
-                            <h1 class="text-center text-danger">การจัดการอาชีวศึกษาระบบทวิภาคี</h1>
+                            <h2 class="text-center text-danger">การจัดการอาชีวศึกษาระบบทวิภาคี</h2>
+                            <center>
+                                <!-- <img src="./dist/img/Slide2.jpg" class="card-img-top rounded border border-danger"
+                                    style="width: 60%;" alt="..."> -->
+                                <div id="carouselExampleCaptions" style="width: 80%;" class="carousel slide rounded"
+                                    data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active">
+                                        </li>
+                                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                                        <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                                        <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                                        <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./dist/img/messageImage_1663063896704.jpg"
+                                                class="d-block w-100 rounded" alt="...">
+                                            <!-- <div class="carousel-caption d-none d-md-block ">
+                                                <h5>First slide label</h5>
+                                                <p>Some representative placeholder content for the first slide.</p>
+                                            </div> -->
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./dist/img/messageImage_1663063922033.jpg"
+                                                class="d-block w-100 rounded" alt="...">
+                                            <!-- <div class="carousel-caption d-none d-md-block">
+                                                <h5>Second slide label</h5>
+                                                <p>Some representative placeholder content for the second slide.</p>
+                                            </div> -->
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./dist/img/messageImage_1663063942828.jpg"
+                                                class="d-block w-100 rounded" alt="...">
+                                            <!-- <div class="carousel-caption d-none d-md-block">
+                                                <h5>Third slide label</h5>
+                                                <p>Some representative placeholder content for the third slide.</p>
+                                            </div> -->
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./dist/img/messageImage_1663063955398.jpg"
+                                                class="d-block w-100 rounded" alt="...">
+                                            <!-- <div class="carousel-caption d-none d-md-block">
+                                                <h5>Fourth slide label</h5>
+                                                <p>Some representative placeholder content for the third slide.</p>
+                                            </div> -->
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./dist/img/messageImage_1663064309654.jpg"
+                                                class="d-block w-100 rounded" alt="...">
+                                            <!-- <div class="carousel-caption d-none d-md-block">
+                                                <h5>Fourth slide label</h5>
+                                                <p>Some representative placeholder content for the third slide.</p>
+                                            </div> -->
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./dist/img/messageImage_1663064360784.jpg"
+                                                class="d-block w-100 rounded" alt="...">
+                                            <!-- <div class="carousel-caption d-none d-md-block">
+                                                <h5>Fourth slide label</h5>
+                                                <p>Some representative placeholder content for the third slide.</p>
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-target="#carouselExampleCaptions" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-target="#carouselExampleCaptions" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </button>
+                                </div>
+                            </center>
                             <blockquote class="quote-danger">
 
                                 <h3>แนวคิด</h3>
@@ -242,12 +265,14 @@ require('layout/navside.php');
 
                                 <h3 class="card-title">
                                     2. การจัดการศึกษา
-                                    การจัดการศึกษาในหลักสูตรอาชีวศึกษาแต่ละระดับสามารถจัดแบบในระบบและระบบทวิภาคี
-                                    โดยใช้ระบบทวิภาคี ซึ่งกำหนดให้ 1 ปีการศึกษา แบ่งเป็น 2 ภาคเรียน และใน 1 ภาคเรียน
-                                    มีระยะเวลาจัดการศึกษารวมการวัดผล 18 สัปดาห์ โดย
+
                                 </h3>
                                 <p>
                                     <br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    การจัดการศึกษาในหลักสูตรอาชีวศึกษาแต่ละระดับสามารถจัดแบบในระบบและระบบทวิภาคี
+                                    โดยใช้ระบบทวิภาคี ซึ่งกำหนดให้ 1 ปีการศึกษา แบ่งเป็น 2 ภาคเรียน และใน 1 ภาคเรียน
+                                    มีระยะเวลาจัดการศึกษารวมการวัดผล 18 สัปดาห์ โดย
                                     <br />
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                     2.1 ระดับประกาศนียบัตรวิชาชีพ (ปวช.) ใช้ระยะเวลาการศึกษา 6 ภาคเรียน
@@ -590,136 +615,6 @@ require('layout/navside.php');
 
                 </div>
 
-                <div class="col-md-12">
-                    <div class="card">
-                        <!-- <div class="card-header">
-                            <h3 class="card-title">
-                                <i class="fas fa-text-width"></i>
-                                การจัดการอาชีวศึกษาระบบทวิภาคี
-                            </h3>
-                        </div> -->
-                        <!-- /.card-header -->
-                        <div class="card-body">
-                            <h1 class="text-center text-danger">การศึกษาระบบทวิภาคี</h1>
-                            <blockquote class="quote-danger">
-
-                                <!-- <h3>แนวคิด</h3> -->
-                                <p>
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    เป็นรูปแบบการจัดการศึกษาที่เกิดจากข้อตกลงร่วมกันระหว่างสถานศึกษาอาชีวศึกษาหรือสถานบันกับสถานประกอบการ
-                                    รัฐวิสาหกิจ หรือหน่วยงานของรัฐ
-                                    โดยผู้เรียนใช้เวลาส่วนหนึ่งในสถานศึกษาอาชีวศึกษาหรือสถาบัน
-                                    และเรียนภาคปฏิบัติในสถานประกอบการ รัฐวิสาหกิจ หรือหน่วยงานของรัฐ
-                                    เพื่อให้การจัดการศึกษาระบบทวิภาคีสามารถเพิ่มขีดความสามารถด้านการผลิตพัฒนากำลังคนตรงตามความต้องการของผู้ใช้และเป็นไปตามจุดหมายของหลักสูตร
-                                    ทั้งนี้ สถานศึกษาอาชีวศึกษาหรือสถาบันต้องดำเนินการดังนี้
-                                    <br />
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    7.1 นำรายวิชาทวิภาคีในกลุ่มสมรรถนะวิชาชีพเลือก ระดับปวช. รวมไม่น้อยกว่า 18 หน่วยกิต
-                                    และระดับปวส. รวมไม่น้อยกว่า 12 หน่วยกิต
-                                    ไปร่วมกำหนดรายละเอียดของรายวิชากับสถานประกอบการ รัฐวิสาหกิจ หรือหน่วยงานของรัฐ
-                                    ที่ร่วมจัดการศึกษาระบบทวิภาคี ได้แก่ จุดประสงค์รายวิชา สมรรถนะรายวิชา
-                                    คำอธิบายรายวิชา เวลาที่ใช้ฝึกและจำนวนหน่วยกิต
-                                    ให้สอดคล้องกับลักษณะงานของสถานประกอบการ รัฐวิสาหกิจ หรือหน่วยงานของรัฐ
-                                    รวมทั้งสมรรถนะวิชีพของสาขางาน ทั้งนี้
-                                    การกำหนดจำนวนหน่วยกิตและจำนวนชั่วโมงที่ใช้ฝึกอาชีพของแต่ละรายวิชาทวิภาคีให้เป็นไปตามหลักสูตรกำหนด
-                                    และให้รายงานการพัฒนารายวิชาดังกล่าวให้สำนักงานคณะกรรมการการอาชีวศึกษาทราบด้วย
-                                    <br />
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    7.2 ร่วมทำแผนการฝึกอาชีพ พร้อมแนวการวัดและประเมินผลในแต่ละรายวิชากับสถานประกอบการ
-                                    รัฐวิสาหกิจ หรือหน่วยงานของรัฐ ที่ร่วมจัดการศึกษาระบบทวิภาคี
-                                    เพื่อนำไปใช้ในการฝึกอาชีพ และดำเนินการวัดและประเมินผลเป็นรายวิชา
-                                    <br />
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    7.3 จัดแผนการเรียนระบบทวิภาคีตามความพร้อมของสถานประกอบการ รัฐวิสาหกิจ
-                                    หรือหน่วยงานของรัฐ ที่จัดการศึกษาระบบทวิภาคีร่วมกัน
-                                    โดยอาจนำรายวิชาอื่นที่สอดคล้องกับลักษณะงานของสถานประกอบการ รัฐวิสาหกิจ
-                                    หรือหน่วยงานของรัฐนั้น ๆ ไปจัดร่วมด้วยก็ได้
-                                    <br />
-                                </p>
-
-                                <h3 class="card-title">
-                                    8. การเข้าเรียน
-                                </h3>
-                                <p>
-                                    <br />
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    8.1 พื้นความรู้และคุณสมบัติของผู้เข้าเรียน
-                                    <br />
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    8.1.1 ผู้เข้าเรียนระดับปวช. ต้องสำเร็จการศึกษาไม่ต่ำกว่าระดับมัธยมศึกษาปีที่ 3
-                                    หรือเทียบเท่า
-                                    และมีคุณสมบัติเป็นไปตามระเบียบกระทรวงศึกษาธิการว่าด้วยการจัดการศึกษาและการประเมินผลการเรียนตามหลักสูตรประกาศนียบัตรวิชาชีพ
-                                    <br />
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    8.1.2 ผู้เข้าเรียนระดับปวส.
-                                    ต้องสำเร็จการศึกษาไม่ต่ำกว่าระดับมัธยมศึกษาตอนปลายหรือเทียบเท่า
-                                    หรือระดับประกาศนียบัตรวิชาชีพหรือเทียบเท่า
-                                    และมีคุณสมบัติเป็นไปตามระเบียนกระทรวงศึกษาธิการ
-                                    และการประเมินผลการเรียนตามหลักสูตรประกาศนียบัตรวิชาชีพ
-                                    ทั้งนี้ผู้เรียนเรียนที่สำเร็จการศึกษาระดับมัธยมศึกษาตอนปลายหรือเทียบเท่าและผู้เข้าเรียนที่สำเร็จการศึกษาระดับประกาศนียบัตรวิชาชีพ
-                                    (ปวช.) หรือเทียบเท่า ต่างประเภทวิชาและสาขาวิชาที่กำหนด
-                                    ต้องเรียนรายวิชาปรับพื้นฐานวิชาชีพตามที่กำหนดไว้ในหลักสูตรแต่ละประเภทวิชา สาขาวิชา
-                                    เพื่อให้มีความรู้ และทักษะพื้นฐานที่จำเป็นสำหรับการเรียนในสาขาวิชานั้น
-                                    <br />
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    8.1.3 ผู้เข้าเรียนการศึกษาระบบทวิภาคี ระดับปวช. ต้องมีอายุไม่ต่ำกว่า 15
-                                    ปีบริบูรณ์ในวันทำสัญญาการฝึกอาชีพ ส่วนผู้เข้าเรียนการศึกษาระบบทวิภาคี ระดับปวส.
-                                    ต้องมีอายุไม่ต่ำกว่า 17 ปีบริบูรณ์ในวันทำสัญญาการฝึกอาชีพ
-                                    <br />
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    8.2 การรับผู้เข้าเรียน
-                                    <br />
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    8.2.1 ให้ทำการสอบคัดเลือกหรือคัดเลือกตามที่สถานศึกษากำหนด
-                                    <br />
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    8.2.2 การรับผู้เข้าเรียนการศึกษาระบบทวิภาคี
-                                    สถานประกอบการจะเป็นผู้สอบคัดเลือกหรือคัดเลือกผู้เข้าเรียนเองตามคุณสมบัติที่กำหนด
-                                    และตามจำนวนที่ได้ตกลงร่วมกับสถานศึกษาหรือจะมอบให้สถานศึกษาเป็นผู้ดำเนินการ
-                                    หรือดำเนินการร่วมก็ได้
-                                    <br />
-                                </p>
-
-                                <h3 class="card-title">
-                                    9. การประเมินผลการเรียน
-                                </h3>
-                                <p>
-                                    <br />
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    เน้นการประเมินสภาพจริง
-                                    โดยให้เป็นไปตามระเบียบกระทรวงศึกษาธิการว่าด้วยการจัดการศึกษาและการประเมินผลการเรียนตามหลักสูตรแต่ละระดับ
-                                    <br />
-                                </p>
-
-                                <h3 class="card-title">
-                                    10. การสำเร็จการศึกษาตามหลักสูตร
-                                </h3>
-                                <p>
-                                    <br />
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    10.1 ได้รายวิชาและจำนวนหน่วยกิตสะสมในทุกหมวดวิชา ครบถ้วนตามที่กำหนดไว้ในหลักสูตร
-                                    แต่ละระดับ ประเภทวิชาและสาขาวิชา และตามแผนการเรียนที่สถานศึกษากำหนด
-                                    <br />
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    10.2 ได้ค่าระดับคะแนนเฉลี่ยสะสมไม่ต่ำกว่า 2.00
-                                    <br />
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    10.3 ผ่านเกณฑ์การประเมินมาตรฐานวิชาชีพ
-                                    <br />
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    10.4 ได้เข้าร่วมปฏิบัติกจกรรมเสริมหลักสูตรตามแผนการเรียนที่สถานศึกษากำหนดทุกภาคเรียน
-                                    <br />
-                                </p>
-
-                            </blockquote>
-
-
-
-
-                        </div>
-                    </div>
-
-                </div>
             </div>
 
             <div class="col-md-12">
@@ -732,8 +627,50 @@ require('layout/navside.php');
                         </div> -->
                     <!-- /.card-header -->
                     <div class="card-body">
-                        <h1 class="text-center text-danger">แนวทางการจัดการอาชีวศึกษาระบบทวิภาคี</h1>
-                        <img src="./img/Slide5.jpg" class="card-img-top rounded border border-danger" alt="...">
+                        <h2 class="text-center text-danger">แนวทางการจัดการอาชีวศึกษาระบบทวิภาคี</h2>
+                        <div id="carouselExampleCaptions1"
+                            class="mx-auto d-block carousel slide rounded border border-danger" data-ride="carousel">
+                            <!-- แถบสี่เหลี่ยมด้านล้าง -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleCaptions1" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleCaptions1" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleCaptions1" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./dist/img/Slide5.jpg" class="d-block w-100 rounded" alt="...">
+                                    <!-- <div class="carousel-caption d-none d-md-block ">
+                                        <h5>First slide label</h5>
+                                        <p>Some representative placeholder content for the first slide.</p>
+                                    </div> -->
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./dist/img/Slide6.jpg" class="d-block w-100 rounded" alt="...">
+                                    <!-- <div class="carousel-caption d-none d-md-block">
+                                        <h5>Second slide label</h5>
+                                        <p>Some representative placeholder content for the second slide.</p>
+                                    </div> -->
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./dist/img/Slide7.jpg" class="d-block w-100 rounded" alt="...">
+                                    <!-- <div class="carousel-caption d-none d-md-block">
+                                        <h5>Third slide label</h5>
+                                        <p>Some representative placeholder content for the third slide.</p>
+                                    </div> -->
+                                </div>
+
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions1"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions1"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </button>
+                        </div>
 
                         <blockquote class="quote-danger">
                             <!-- <h3>แนวคิด</h3> -->
@@ -914,12 +851,14 @@ require('layout/navside.php');
                         </div> -->
                     <!-- /.card-header -->
                     <div class="card-body">
-                        <h1 class="text-center text-danger">
-                            การจัดอาชีวศึกษาระบบทวิภาคีระหว่างสถานศึกษา <br />และสถานประกอบการ
-                        </h1>
-
-                        <img src="./img/Slide3.jpg" class="card-img-top rounded border border-danger" alt="...">
-
+                        <h2 class="text-center text-danger">
+                            <!-- การจัดอาชีวศึกษาระบบทวิภาคีระหว่างสถานศึกษา <br />และสถานประกอบการ -->
+                            รูปแบบการจัดการอาชีวศึกษาระบบทวิภาคี
+                        </h2>
+                        <center>
+                            <img src="./dist/img/Slide3.jpg" class="card-img-top rounded border border-danger"
+                                style="width: 80%;" alt="...">
+                        </center>
                         <p>
                             <br />
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -936,7 +875,7 @@ require('layout/navside.php');
                             <p>
                                 <br />
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                Model A การจัดอาชีวศึกษาระบบทวิภาคีเต็มรูปแบบ (ร้อยเปอร์เซ็นต์) ในพื้นที่
+                                การจัดอาชีวศึกษาระบบทวิภาคีเต็มรูปแบบ (ร้อยเปอร์เซ็นต์) ในพื้นที่
                                 คือมีสถานประกอบการในพื้นที่ตั้งสถานศึกษาผู้เรียนทุกคนทุกสาขาวิชา ได้เข้าฝึกอาชีพใน
                                 สถานประกอบการ
                                 <br />
@@ -998,45 +937,8 @@ require('layout/navside.php');
 
             </div>
 
-            <div class="col-md-12">
-                <div class="card">
-                    <!-- <div class="card-header">
-                            <h3 class="card-title">
-                                <i class="fas fa-text-width"></i>
-                                การจัดการอาชีวศึกษาระบบทวิภาคี
-                            </h3>
-                        </div> -->
-                    <!-- /.card-header -->
-                    <div class="card-body">
-                        <h1 class="text-center text-danger">
-                            สถานประกอบการ
-                        </h1>
-
-                        <!-- <img src="./img/Slide3.jpg" class="card-img-top rounded border border-danger" alt="..."> -->
-
-                        <blockquote class="quote-danger">
-
-                            <!-- <h3 class="card-title">
-                                Model E
-                            </h3> -->
-
-                            <p>
-                                <br />
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                สถานประกอบการที่ประสงค์จะจัดการอาชีวศึกษาและการฝึกอบรมวิชาชีพต้องเป็นสถานประกอบการที่ดำเนินการตามกฎกระทรวงว่าด้วยหลักเกณฑ์และวิธีการยื่นคำขอและการพิจารณาเพื่อการจัดการอาชีวศึกษาและการฝึกอบรมวิชาชีพของสถานประกอบการ
-                                <br />
-                            </p>
-
-                        </blockquote>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <!--  -->
-        <!-- <div class="row">
+            <!--  -->
+            <!-- <div class="row">
                 <div class="col-md-6">
                     <div class="card card-danger card-outline">
                         <div class="card-body">
@@ -1095,13 +997,13 @@ require('layout/navside.php');
                 </div>
             </div> -->
 
-        <!--  -->
-        <!--  -->
-        <!--  -->
-        <!--  -->
-        <!--  -->
+            <!--  -->
+            <!--  -->
+            <!--  -->
+            <!--  -->
+            <!--  -->
 
-        <!-- <div class="row">
+            <!-- <div class="row">
                 <div class="col-md-6">
                     <div class="card" style="min-height: 425px;">
                         <img src="./img/104050.jpg" class="card-img-top rounded-top" alt="...">
@@ -1192,12 +1094,12 @@ require('layout/navside.php');
                     </div>
                 </div>
             </div> -->
-        <!--  -->
-        <!--  -->
-        <!--  -->
-        <!--  -->
-        <!--  -->
-        <!-- <div class="row">
+            <!--  -->
+            <!--  -->
+            <!--  -->
+            <!--  -->
+            <!--  -->
+            <!-- <div class="row">
                 <div class="col-md-6">
                     <div class="card card-danger">
                         <div class="card-header">
@@ -1289,13 +1191,13 @@ require('layout/navside.php');
                 </div>
             </div> -->
 
-        <!--  -->
-        <!--  -->
-        <!--  -->
-        <!--  -->
-        <!--  -->
+            <!--  -->
+            <!--  -->
+            <!--  -->
+            <!--  -->
+            <!--  -->
 
-        <!-- <div class="row">
+            <!-- <div class="row">
                 <div class="col-md-6">
                     <div class="card card-danger card-outline" style="min-height: 200px;">
                         <div class="card-body">
@@ -1380,8 +1282,8 @@ require('layout/navside.php');
             </div> -->
 
 
-        <!--  -->
-        <!-- <div class="row">
+            <!--  -->
+            <!-- <div class="row">
                 <div class="col-md-6">
                     <div class="card">
                         <div class="card-body">
@@ -1436,14 +1338,13 @@ require('layout/navside.php');
 
             </div> -->
 
+        </div>
     </div>
-</div>
-
-</div>
 
 
-<!-- <aside class="control-sidebar control-sidebar-dark">
+
+    <!-- <aside class="control-sidebar control-sidebar-dark">
 
 </aside> -->
 
-<?php require('layout/footer.php') ?>
+    <?php require('layout/footer.php') ?>

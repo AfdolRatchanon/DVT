@@ -17,7 +17,7 @@ require('layout/navside.php');
         <div class="container">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <!-- <h1 class="m-0"> Top Navigation <small>Example 3.0</small></h1> -->
+                    <!-- <h2 class="m-0"> Top Navigation <small>Example 3.0</small></h2> -->
                 </div>
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
@@ -34,8 +34,8 @@ require('layout/navside.php');
                         <li class="breadcrumb-item active">
                             <?=
                             $_SESSION['lang'] == 'th'
-                                ? "นักเรียน นักศึกษา"
-                                : "STUDENT"
+                                ? "สถานถานศึกษา"
+                                : "ACADEMY"
                             ?>
                         </li>
                     </ol>
@@ -47,7 +47,7 @@ require('layout/navside.php');
     <div class="content">
         <div class="container">
             <div class="jumbotron bg-danger">
-                <h2>สำหรับนักเรียน นักศึกษาระบบทวิภาคี</h2>
+                <h2>สำหรับสถานศึกษาอาชีวศึกษา หรือสถาบัน</h2>
                 <p>การจัดการอาชีวศึกษาระบบทวิภาคี และฝึกอบรมวิชาชีพ</p>
             </div>
 
@@ -62,38 +62,86 @@ require('layout/navside.php');
                         </div> -->
                         <!-- /.card-header -->
                         <div class="card-body">
-                            <h2 class="text-center text-danger">พื้นความรู้และคุณสมบัติของผู้เข้าเรียน</h2>
+                            <h2 class="text-center text-danger">สถานศึกษาที่จัดการอาชีวศึกษาระบบทวิภาคี</h2>
                             <center>
-                                <img src="./dist/img/Slide8.jpg" class="card-img-top rounded border border-danger"
+                                <img src="./dist/img/Slide10.jpg" class="card-img-top rounded border border-danger"
                                     style="width: 60%;" alt="...">
                             </center>
                             <blockquote class="quote-danger">
-                                <h3>พื้นความรู้และคุณสมบัติของผู้เข้าเรียน</h3>
+                                <h3>สถานศึกษาหรือสถาบันการอาชีวศึกษาที่จัดการอาชีวศึกษาระบบทวิภาคีจะต้องปฏิบัติตามหลักเกณฑ์
+                                    ดังนี้</h3>
                                 <p>
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    1. ผู้เข้าเรียนระดับปวช. ต้องสำเร็จการศึกษาไม่ต่ำกว่าระดับมัธยมศึกษาปีที่ 3
-                                    หรือเทียบเท่า และมีคุณสมบัติเป็นไปตามระเบียบกระทรวงศึกษาธิการ
-                                    ว่าด้วยการจัดการศึกษาและการประเมินผลการเรียนตามหลักสูตรประกาศนียบัตรวิชาชีพ
+                                    1.
+                                    ผู้บริหารและบุคลากรในสถานศึกษาหรือสถาบันการอาชีวศึกษาต้องส่งเสริมและสนับสนุนการจัดการอาชีวศึกษาระบบทวิภาคีอย่างเป็นระบบและต่อเนื่อง
+                                    2. จัดการเรียนในสาขาวิชาที่ตรงความต้องการของสถานประกอบการ
                                     <br />
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    2. ผู้เข้าเรียนระดับปวส.
-                                    ต้องสำเร็จการศึกษาไม่ต่ำกว่าระดับมัธยมศึกษาตอนปลายหรือเทียบเท่า
-                                    หรือระดับประกาศนียบัตรวิชาชีพหรือเทียบเท่า
-                                    และมีคุณสมบัติเป็นไปตามระเบียนกระทรวงศึกษาธิการ
-                                    และการประเมินผลการเรียนตามหลักสูตรประกาศนียบัตรวิชาชีพ
+                                    3. จัดทําบันทึกข้อตกลงความร่วมมือ
+                                    ระหว่างสถานศึกษาหรือสถาบันการอาชีวศึกษากับสถานประกอบการ
                                     <br />
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    3. ผู้เข้าเรียนการศึกษาระบบทวิภาคี ระดับปวช. และปวส.
+                                    4. จัดทําสัญญาการฝึกอาชีพระหว่างผู้เรียนกับสถานประกอบการ
                                     <br />
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <i class="fa-solid fa-book"></i> ระดับปวช.
-                                    ต้องมีอายุไม่ต่ำกว่า 15 ปีบริบูรณ์ในวันทำสัญญาการฝึกอาชีพ
-                                    ส่วนผู้เข้าเรียนการศึกษาระบบทวิภาคี
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    5. จัดทําแผนการเรียน แผนการฝึกอาชีพ และแผนการนิเทศร่วมกับสถานประกอบการตลอดหลักสูตร
                                     <br />
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <i class="fa-solid fa-book"></i> ระดับปวส.
-                                    ต้องมีอายุไม่ต่ำกว่า 17 ปีบริบูรณ์ในวันทำสัญญาการฝึกอาชีพ
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    6. จัดให้มีการปฐมนิเทศก่อนการฝึกอาชีพ และปัจฉิมนิเทศหลังเสร็จสิ้นการฝึกอาชีพ
+                                    <br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    7. เตรียมความพร้อมผู้เรียนก่อนการฝึกอาชีพ
+                                    <br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    8. จัดให้มีครูนิเทศก์การฝึกอาชีพในสถานประกอบการ
+                                    <br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    9. มีการกํากับ ติดตาม และประเมินผลการฝึกอาชีพร่วมกับสถานประกอบการ
+                                    <br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    10 . ประชาสัมพันธ์การจัดการอาชีวศึกษาระบบทวิภาคีให้กับสถานประกอบการ ผู้เรียน
+
+                                    และผู้ปกครองทราบ
                                 </p>
+                            </blockquote>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-12">
+                    <div class="card">
+                        <!-- <div class="card-header">
+                            <h3 class="card-title">
+                                <i class="fas fa-text-width"></i>
+                                การจัดการอาชีวศึกษาระบบทวิภาคี
+                            </h3>
+                        </div> -->
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                            <h2 class="text-center text-danger">ผู้สอนและบุคลากรสนับสนุนในระบบทวิภาคี</h2>
+                            <center>
+                                <img src="./dist/img/Slide11.jpg" class="card-img-top rounded border border-danger"
+                                    style="width: 60%;" alt="...">
+                            </center>
+                            <blockquote class="quote-danger">
+
+                                <!-- <h3>...</h3> -->
+                                <p>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <i class="fa-solid fa-school"></i>
+                                    ผู้สอนวิชาชีพในสาขาวิชาของสถานศึกษาหรือสถาบัน
+                                    การอาชีวศึกษาที่จัดการอาชีวศึกษาระบบทวิภาคี
+                                    ไม่น้อยกว่า ร้อยละ 30 ต้องได้รับการพัฒนาวิชาชีพที่สอน ไม่น้อยกว่า 80 ชั่วโมง : คน :
+                                    ปีการศึกษา จากสถานประกอบการที่ร่วมจัดการอาชีวศึกษาระบบทวิภาคี
+                                    <br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <i class="fa-solid fa-school"></i>
+                                    สถานศึกษาหรือสถาบันการอาชีวศึกษา ต้องจัดให้มีผู้มีประสบการณ์ มีความชำนาญ
+                                    และมีความเชี่ยวชาญด้านวิชาชีพมาถ่ายทอดทักษะประสบการณ์และความรู้แก่ผู้เรียน และผู้สอน
+                                    ไม่น้อยกว่า 2 ครั้ง ครั้งละไม่ต่ำกว่า 2 ชั่วโมง : สาขาวิชา : ภาคเรียน
+                                </p>
+
                             </blockquote>
                         </div>
                     </div>
@@ -109,63 +157,56 @@ require('layout/navside.php');
                         </div> -->
                         <!-- /.card-header -->
                         <div class="card-body">
-                            <h2 class="text-center text-danger">การรับผู้เข้าเรียนในระบบทวิภาคี</h2>
+                            <h2 class="text-center text-danger">การนิเทศ</h2>
                             <center>
-                                <img src="./dist/img/Picture01.png" class="card-img-top rounded border border-danger"
-                                    style="width: 80%;" alt="...">
+                                <img src="./dist/img/Slide14.jpg" class="card-img-top rounded border border-danger"
+                                    style="width: 60%;" alt="...">
                             </center>
+
                             <blockquote class="quote-danger">
-                                <h3>การรับผู้เข้าเรียนในระบบทวิภาคี</h3>
+                                <h3>การนิเทศผู้เรียนในสถานประกอบการ</h3>
                                 <p>
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    1. ให้ทำการสอบคัดเลือกหรือคัดเลือกตามที่สถานศึกษากำหนด
+                                    กรณีที่ 1
+                                    <br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    1. ให้ครูนิเทศไปนิเทศในสถานประกอบการอย่างน้อย 3 ครั้งต่อ 1 ภาคเรียน
                                     <br />
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    2. การรับผู้เข้าเรียนการศึกษาระบบทวิภาคี
-                                    สถานประกอบการจะเป็นผู้สอบคัดเลือกหรือคัดเลือกผู้เข้าเรียนเองตามคุณสมบัติที่กำหนด
-                                    และตามจำนวนที่ได้ตกลงร่วมกับสถานศึกษาหรือจะมอบให้สถานศึกษา เป็นผู้ดำเนินการ
-                                    หรือดำเนินการร่วมก็ได้
+                                    2.
+                                    ให้ใช้เทคโนโลยีสารสนเทศในการนิเทศในประเทศอย่างสม่ำเสมอและให้รายงานผลต่อการนิเทศต่อผู้บริหารสถานศึกษาหรือสถาบันการอาชีวศึกษาทราบ
+                                    <br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    3. ให้ใช้วิธีการนิเทศที่หลากหลาย
                                 </p>
                             </blockquote>
-                        </div>
-                    </div>
 
-                </div>
-
-                <div class="col-md-12">
-                    <div class="card">
-                        <!-- <div class="card-header">
-                            <h3 class="card-title">
-                                <i class="fas fa-text-width"></i>
-                                การจัดการอาชีวศึกษาระบบทวิภาคี
-                            </h3>
-                        </div> -->
-                        <!-- /.card-header -->
-                        <div class="card-body">
-                            <h2 class="text-center text-danger">การสำเร็จการศึกษา</h2>
-                            <center>
-                                <img src="./dist/img/Picture01.png" class="card-img-top rounded border border-danger"
-                                    style="width: 80%;" alt="...">
-                            </center>
                             <blockquote class="quote-danger">
-                                <h3>
-                                    การสำเร็จการศึกษาตามหลักสูตร
-                                </h3>
+                                <h3>การนิเทศผู้เรียนในสถานประกอบการทั้งในและต่างประเทศ</h3>
                                 <p>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <b>การนิเทศในประเทศ</b> ให้ดำเนินการดังนี้
+                                    <br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <i class="fa-solid fa-user-group"></i>
+                                    ให้ครูนิเทศไปนิเทศอย่างน้อยหนึ่งครั้งต่อภาคเรียน
+                                    <br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <i class="fa-solid fa-user-group"></i>
+                                    ให้ภาคีเครือข่ายในต่างประเทศเป็นผู้นิเทศแทนในทุกภาคเรียน
+                                    <br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <i class="fa-solid fa-user-group"></i>
+                                    ให้ใช้เทคโนโลยีสารสนเทศในการนิเทศต่างประเทศอย่างสม่ำเสม
                                     <br />
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    10.1 ได้รายวิชาและจำนวนหน่วยกิตสะสมในทุกหมวดวิชา ครบถ้วนตามที่กำหนดไว้ในหลักสูตร
-                                    แต่ละระดับ ประเภทวิชาและสาขาวิชา และตามแผนการเรียนที่สถานศึกษากำหนด
+                                    <b>การนิเทศในต่างประเทศ</b> ให้ดำเนินการดังนี้
                                     <br />
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    10.2 ได้ค่าระดับคะแนนเฉลี่ยสะสมไม่ต่ำกว่า 2.00
-                                    <br />
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    10.3 ผ่านเกณฑ์การประเมินมาตรฐานวิชาชีพ
-                                    <br />
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    10.4 ได้เข้าร่วมปฏิบัติกจกรรมเสริมหลักสูตรตามแผนการเรียนที่สถานศึกษากำหนดทุกภาคเรียน
-                                    <br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <i class="fa-solid fa-user-group"></i>
+                                    การไปนิเทศในต่างประเทศต้องได้รับอนุญาตจากผู้มีอำนาจตามระเบียบก่อนการเดินทา
+
+
                                 </p>
                             </blockquote>
                         </div>

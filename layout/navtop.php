@@ -39,7 +39,7 @@
                                     : "STUDENT"  ?>
                             </a>
                         </li>
-                        <li class="nav-item ">
+                        <!-- <li class="nav-item ">
                             <a href="job-hunter.php" class="nav-link navtop">
                                 <?=
                                 $_SESSION['lang'] == 'th'
@@ -47,9 +47,9 @@
                                     : "JOB HUNTER"
                                 ?>
                             </a>
-                        </li>
+                        </li> -->
                         <li class="nav-item ">
-                            <a href="employers.php" class="nav-link navtop">
+                            <a href="company.php" class="nav-link navtop">
                                 <?= $_SESSION['lang'] == 'th'
                                     ? "สถานประกอบการ"
                                     : "EMPLOYERS"
@@ -57,10 +57,10 @@
                             </a>
                         </li>
                         <li class="nav-item ">
-                            <a href="industry-insiders.php" class="nav-link navtop">
+                            <a href="academy.php" class="nav-link navtop">
                                 <?= $_SESSION['lang'] == 'th'
                                     ? "สถานศึกษา"
-                                    : "Academy"
+                                    : "ACADEMY"
                                 ?>
                             </a>
                         </li>
@@ -68,7 +68,7 @@
                             <a href="resources.php" class="nav-link navtop">
                                 <?= $_SESSION['lang'] == 'th'
                                     ? "แหล่งข้อมูลเพิ่มเติม"
-                                    : "Resources"
+                                    : "RESOURCES"
                                 ?>
                             </a>
 
