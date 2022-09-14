@@ -110,10 +110,25 @@ require('layout/navside.php');
                         <!-- /.card-header -->
                         <div class="card-body">
                             <h2 class="text-center text-danger">การรับผู้เข้าเรียนในระบบทวิภาคี</h2>
-                            <center>
+                            <div class="row">
+                                <div class="col-sm-6 my-2">
+                                    <center>
+                                        <img src="./dist/img/176352.jpg"
+                                            class="card-img-top rounded border border-danger" alt="...">
+                                    </center>
+                                </div>
+                                <div class="col-sm-6 my-2">
+                                    <center>
+                                        <img src="./dist/img/286397.jpg"
+                                            class="card-img-top rounded border border-danger" alt="...">
+                                    </center>
+                                </div>
+
+                            </div>
+                            <!-- <center>
                                 <img src="./dist/img/Picture01.png" class="card-img-top rounded border border-danger"
                                     style="width: 80%;" alt="...">
-                            </center>
+                            </center> -->
                             <blockquote class="quote-danger">
                                 <h3>การรับผู้เข้าเรียนในระบบทวิภาคี</h3>
                                 <p>
@@ -154,17 +169,17 @@ require('layout/navside.php');
                                 <p>
                                     <br />
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    10.1 ได้รายวิชาและจำนวนหน่วยกิตสะสมในทุกหมวดวิชา ครบถ้วนตามที่กำหนดไว้ในหลักสูตร
+                                    1.1 ได้รายวิชาและจำนวนหน่วยกิตสะสมในทุกหมวดวิชา ครบถ้วนตามที่กำหนดไว้ในหลักสูตร
                                     แต่ละระดับ ประเภทวิชาและสาขาวิชา และตามแผนการเรียนที่สถานศึกษากำหนด
                                     <br />
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    10.2 ได้ค่าระดับคะแนนเฉลี่ยสะสมไม่ต่ำกว่า 2.00
+                                    1.2 ได้ค่าระดับคะแนนเฉลี่ยสะสมไม่ต่ำกว่า 2.00
                                     <br />
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    10.3 ผ่านเกณฑ์การประเมินมาตรฐานวิชาชีพ
+                                    1.3 ผ่านเกณฑ์การประเมินมาตรฐานวิชาชีพ
                                     <br />
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    10.4 ได้เข้าร่วมปฏิบัติกจกรรมเสริมหลักสูตรตามแผนการเรียนที่สถานศึกษากำหนดทุกภาคเรียน
+                                    1.4 ได้เข้าร่วมปฏิบัติกจกรรมเสริมหลักสูตรตามแผนการเรียนที่สถานศึกษากำหนดทุกภาคเรียน
                                     <br />
                                 </p>
                             </blockquote>

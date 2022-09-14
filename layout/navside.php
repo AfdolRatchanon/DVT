@@ -10,8 +10,8 @@
         <nav class="mt-2">
             <ul class="nav nav-pills nav-sidebar flex-column nav-child-indent" data-widget="treeview" role="menu"
                 data-accordion="false">
-                <li class="nav-item">
-                    <a href="#" class="nav-link active">
+                <!-- <li class="nav-item">
+                    <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-tachometer-alt"></i>
                         <p>
                             Dashboard
@@ -32,98 +32,55 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="index3.html" class="nav-link active">
+                            <a href="index3.html" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Dashboard v3</p>
                             </a>
                         </li>
                     </ul>
-                </li>
+                </li> -->
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="student.php" class="nav-link navside">
                         <i class="nav-icon fa-solid fa-user-graduate"></i>
                         <p>
                             นักเรียนนักศึกษา
-                            <i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
-                    <ul class="nav nav-treeview">
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
-                                <p>M1</p>
-                            </a>
-                        </li>
-                    </ul>
                 </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">
+                <!-- <li class="nav-item">
+                    <a href=".html" class="nav-link">
                         <i class="nav-icon fa-regular fa-folder-open"></i>
                         <p>
                             ข้อมูลการฝึกงาน
-                            <i class="right fas fa-angle-left"></i>
+                            <span class="right badge badge-danger">New</span>
                         </p>
                     </a>
-                    <ul class="nav nav-treeview">
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
-                                <p>M1</p>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
+                </li> -->
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="company.php" class="nav-link navside">
                         <i class="nav-icon fa-solid fa-building"></i>
                         <p>
                             สถานประกอบการ
-                            <i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
-                    <ul class="nav nav-treeview">
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
-                                <p>M1</p>
-                            </a>
-                        </li>
-                    </ul>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="academy.php" class="nav-link navside">
                         <i class="nav-icon fa-solid fa-school"></i>
                         <p>
                             สถานศึกษา
-                            <i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
-                    <ul class="nav nav-treeview">
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
-                                <p>M1</p>
-                            </a>
-                        </li>
-                    </ul>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="resources.php" class="nav-link navside">
                         <i class="nav-icon fa-solid fa-paper-plane"></i>
                         <p>
                             ข้อมูลเพิ่มเติม
-                            <i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
-                    <ul class="nav nav-treeview">
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
-                                <p>M1</p>
-                            </a>
-                        </li>
-                    </ul>
                 </li>
+
             </ul>
         </nav>
 

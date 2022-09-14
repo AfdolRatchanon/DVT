@@ -64,10 +64,10 @@ require('layout/navside.php');
                         <div class="card-body">
                             <h2 class="text-center text-danger">สถานประกอบการที่เข้าร่วมจัดการอาชีวศึกษา</h2>
 
-                            <center>
+                            <!-- <center>
                                 <img src="./dist/img/Slide10.jpg" class="card-img-top rounded border border-danger"
                                     style="width: 60%;" alt="...">
-                            </center>
+                            </center> -->
 
                             <blockquote class="quote-danger">
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

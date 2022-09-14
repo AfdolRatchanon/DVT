@@ -95,5 +95,15 @@ $(function() {
     // }).parentsUntil("").addClass('menu-is-opening menu-open');
 });
 </script>
+<script>
+$(function() {
+    var url = window.location;
+    console.log(url.href);
+    $('li.nav-item a.navside').filter(function() {
+        const RegExpURL = new RegExp('^' + this.href + '.{0,}$');
+        return RegExpURL.test(url.href);
+    }).addClass('active');
+});
+</script>
 
 </html>
